@@ -4,35 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] Intellj files" />
+    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] init java files">
+      <change afterPath="$PROJECT_DIR$/Arrays/ejercicio11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/ejercicio20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrices/ejercicio25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrices/ejercicio29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hackaton_23-10-2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hackaton_23-10-2025.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="LidiaRojo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sofi1108"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sofi1108&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Danielromeasalas/Hackaton23-10-2025.git",
-    "accountId": "ebd80340-3b1f-4a87-8972-cd00d0d2ebe5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Danielromeasalas/Hackaton23-10-2025.git&quot;,
+    &quot;accountId&quot;: &quot;ebd80340-3b1f-4a87-8972-cd00d0d2ebe5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="34SnKRb8TbIr0LMxKbyNdezlmeB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +54,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ejercicio11.executor": "Run",
+    "Application.ejercicio20.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SofiaTorcal",
