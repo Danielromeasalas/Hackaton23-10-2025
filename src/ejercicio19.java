@@ -7,17 +7,20 @@ public class ejercicio19 {
         // Random
         Random aleatorio = new Random();
 
-        // Array y variables
+        // Array
         int numeros[] = new int[15];
-        int numRepetido1 = 0;
-        int contadorRepetidos1 = 1;
-        int numRepetidoAnterior = 0;
-        int contadorRepetidoAnterior = 0;
 
         // Rellenar array
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = aleatorio.nextInt(5) + 1;
         }
+
+        // Array y variables
+        int numRepetido = numeros[0];
+        int contadorRepetidos = 1;
+        int numRepetidoMaximo = numeros[0];
+        int contadorRepetidoMaximo = 0;
+
         // Mostrar array
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i] + " ");
@@ -25,21 +28,27 @@ public class ejercicio19 {
         System.out.println();
 
         // Contar números repetidos consecutivos
-        for (int i = 0; i < numeros.length; i++) {
-            if(i + 1 < numeros.length && numeros[i] == numeros[i + 1]){
-                numRepetido1 = numeros[i];
-                contadorRepetidos1++;
-            } else if (i - 1 >= 0 && numeros[i] == numeros[i - 1]) {
-                numRepetidoAnterior = numRepetido1;
-                contadorRepetidoAnterior = contadorRepetidos1;
-                contadorRepetidos1 = 1;
+        for (int i = 1; i < numeros.length; i++) {
+            if(numeros[i] == numeros[i - 1]){
+                contadorRepetidos++;
+            } else{
+                if(contadorRepetidos > contadorRepetidoMaximo){
+                    contadorRepetidoMaximo = contadorRepetidos;
+                    numRepetidoMaximo = numRepetido;
+                }
+                numRepetido = numeros[i];
+                contadorRepetidos = 1;
             }
         }
 
-        if (contadorRepetidos1 > contadorRepetidoAnterior) {
-            System.out.println(String.format("La racha de numeros más larga es el %d, con %d apariciones consecutivas", numRepetido1, contadorRepetidos1));
-        } else if (contadorRepetidos1 < contadorRepetidoAnterior) {
-            System.out.println(String.format("La racha de numeros más larga es el %d, con %d apariciones consecutivas", numRepetidoAnterior, contadorRepetidoAnterior));
+        // Comprobar la ultima racha
+        if (contadorRepetidos > contadorRepetidoMaximo) {
+            contadorRepetidoMaximo = contadorRepetidos;
+            numRepetidoMaximo = numRepetido;
         }
+
+        // Resultado
+        System.out.println(String.format("La racha de numeros más larga es el %d, con %d apariciones consecutivas", numRepetidoMaximo, contadorRepetidoMaximo));
+
     }
 }
