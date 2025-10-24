@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] format">
+    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] out directory for compiler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrices/ejercicio25.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices/ejercicio25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Matrices/ejercicio29.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices/ejercicio29.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
     "Application.ejercicio11.executor": "Run",
     "Application.ejercicio20.executor": "Run",
     "Application.ejercicio25.executor": "Run",
+    "Application.ejercicio29.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -86,7 +86,8 @@
       <workItem from="1761284487886" duration="491000" />
       <workItem from="1761288407673" duration="10000" />
       <workItem from="1761289410494" duration="322000" />
-      <workItem from="1761293881066" duration="928000" />
+      <workItem from="1761293881066" duration="2239000" />
+      <workItem from="1761298295431" duration="1670000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] Intellj files">
       <option name="closed" value="true" />
@@ -104,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761284930141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[MOD] exercises">
+      <option name="closed" value="true" />
+      <created>1761294989582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761294989582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[ADD] out directory for compiler">
+      <option name="closed" value="true" />
+      <created>1761295018361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761295018361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] Intellj files" />
     <MESSAGE value="[ADD] format" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] format" />
+    <MESSAGE value="[MOD] exercises" />
+    <MESSAGE value="[ADD] out directory for compiler" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] out directory for compiler" />
   </component>
 </project>
