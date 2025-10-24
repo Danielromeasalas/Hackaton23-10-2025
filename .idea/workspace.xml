@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] init java files">
-      <change afterPath="$PROJECT_DIR$/Arrays/ejercicio11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/ejercicio20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrices/ejercicio25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrices/ejercicio29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hackaton_23-10-2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hackaton_23-10-2025.iml" afterDir="false" />
+    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrices/ejercicio25.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices/ejercicio25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrices/ejercicio29.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices/ejercicio29.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +53,10 @@
   "keyToString": {
     "Application.ejercicio11.executor": "Run",
     "Application.ejercicio20.executor": "Run",
+    "Application.ejercicio25.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "SofiaTorcal",
     "last_opened_file_path": "C:/CLASE/Programacion/hackaton_23-10-2025",
     "node.js.detected.package.eslint": "true",
@@ -84,6 +83,10 @@
       <option name="presentableId" value="Default" />
       <updated>1761215776403</updated>
       <workItem from="1761215777602" duration="860000" />
+      <workItem from="1761284487886" duration="491000" />
+      <workItem from="1761288407673" duration="10000" />
+      <workItem from="1761289410494" duration="322000" />
+      <workItem from="1761293881066" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] Intellj files">
       <option name="closed" value="true" />
@@ -93,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761215964166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[ADD] format">
+      <option name="closed" value="true" />
+      <created>1761284930141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761284930141</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] Intellj files" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Intellj files" />
+    <MESSAGE value="[ADD] format" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] format" />
   </component>
 </project>
