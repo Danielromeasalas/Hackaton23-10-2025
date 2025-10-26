@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] out directory for compiler">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrices/ejercicio29.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices/ejercicio29.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] ejercicio29" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1761288407673" duration="10000" />
       <workItem from="1761289410494" duration="322000" />
       <workItem from="1761293881066" duration="2239000" />
-      <workItem from="1761298295431" duration="1670000" />
+      <workItem from="1761298295431" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] Intellj files">
       <option name="closed" value="true" />
@@ -121,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761295018361</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[ADD] ejercicio29">
+      <option name="closed" value="true" />
+      <created>1761300693058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761300693058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +137,7 @@
     <MESSAGE value="[ADD] format" />
     <MESSAGE value="[MOD] exercises" />
     <MESSAGE value="[ADD] out directory for compiler" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] out directory for compiler" />
+    <MESSAGE value="[ADD] ejercicio29" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] ejercicio29" />
   </component>
 </project>

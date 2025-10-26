@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] format">
+    <list default="true" id="5b3dba86-d12d-4212-b937-890514a430d3" name="Changes" comment="[ADD] out directory for compiler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrices/ejercicio25.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices/ejercicio25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Matrices/ejercicio29.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices/ejercicio29.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ejercicio11.executor": "Run",
-    "Application.ejercicio20.executor": "Run",
-    "Application.ejercicio25.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "SofiaTorcal",
-    "last_opened_file_path": "C:/CLASE/Programacion/hackaton_23-10-2025",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ejercicio11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio20.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio25.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SofiaTorcal&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/CLASE/Programacion/hackaton_23-10-2025&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +85,8 @@
       <workItem from="1761284487886" duration="491000" />
       <workItem from="1761288407673" duration="10000" />
       <workItem from="1761289410494" duration="322000" />
-      <workItem from="1761293881066" duration="295000" />
+      <workItem from="1761293881066" duration="2239000" />
+      <workItem from="1761298295431" duration="630000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] Intellj files">
       <option name="closed" value="true" />
@@ -104,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761284930141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[MOD] exercises">
+      <option name="closed" value="true" />
+      <created>1761294989582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761294989582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[ADD] out directory for compiler">
+      <option name="closed" value="true" />
+      <created>1761295018361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761295018361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] Intellj files" />
     <MESSAGE value="[ADD] format" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] format" />
+    <MESSAGE value="[MOD] exercises" />
+    <MESSAGE value="[ADD] out directory for compiler" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] out directory for compiler" />
   </component>
 </project>
