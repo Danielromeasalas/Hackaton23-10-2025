@@ -3,16 +3,24 @@
 package Arrays;
 
 public class ejercicio11 {
-    public static void main(String[] args) {
-        int numTot = 15;
-        int num1 = 0, num2 = 1;
-        System.out.println("Serie de Fibonacci, este es el primer término");
+    public static void Main() {
+    }
 
-        for (int i = 1; i <= numTot; i++) {
-            System.out.println(num2);
-            int suma = num1 + num2;
-            num1 = num2;
-            num2 = suma;
+    public static void main(String[] args) {
+        int[] array = new int[15];
+        array[0] = 0;
+        array[1] = 1;
+
+        int i;
+        for(i = 2; i < array.length; ++i) {
+            array[i] = array[i - 1] + array[i - 2];
         }
+
+        System.out.println("Secuencia de fibonacci -> ");
+
+        for(i = 0; i < array.length; ++i) {
+            System.out.println(array[i]);
+        }
+
     }
 }
