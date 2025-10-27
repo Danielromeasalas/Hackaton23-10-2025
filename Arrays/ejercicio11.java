@@ -11,14 +11,13 @@ public class ejercicio11 {
         array[0] = 0;
         array[1] = 1;
 
-        int i;
-        for(i = 2; i < array.length; ++i) {
+        for(int i = 2; i < array.length; ++i) {
             array[i] = array[i - 1] + array[i - 2];
         }
 
         System.out.println("Secuencia de fibonacci -> ");
 
-        for(i = 0; i < array.length; ++i) {
+        for(int i = 0; i < array.length; ++i) {
             System.out.println(array[i]);
         }
 
