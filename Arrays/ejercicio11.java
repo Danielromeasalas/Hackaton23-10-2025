@@ -3,9 +3,6 @@
 package Arrays;
 
 public class ejercicio11 {
-    public static void Main() {
-    }
-
     public static void main(String[] args) {
         int[] array = new int[15];
         array[0] = 0;
@@ -20,6 +17,5 @@ public class ejercicio11 {
         for(int i = 0; i < array.length; ++i) {
             System.out.println(array[i]);
         }
-
     }
 }
